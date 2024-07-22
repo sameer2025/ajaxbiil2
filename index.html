@@ -62,7 +62,13 @@
         }
         .report-content th {
             font-weight: bold;
-            width: 35%;
+            
+        }
+        .columntb{
+            display: flex;
+        }
+        .colen{
+            margin-left: auto;
         }
         .editable {
             display: inline-block;
@@ -115,63 +121,80 @@
         <div class="report-content">
             <table role="table">
                 <tr role="row">
-                    <th role="columnheader">BATCH NO:</th>
+                    <th role="columnheader" class="columntb" > 
+                        BATCH NO
+                        <span class="colen">:</span> 
+                    </th>
                     <td role="cell"><span id="batchNo" contenteditable="true" class="editable">5066</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">MACH ID:</th>
+                    <th role="columnheader" class="columntb" >
+                        MACH ID<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">08199</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">TIME:</th>
+                    <th role="columnheader" class="columntb" >
+                        TIME<span class="colen">:</span></th>
                     <td role="cell"><span id="time" contenteditable="true" class="editable">01:39 PM</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">DATE:</th>
+                    <th role="columnheader" class="columntb" >
+                        DATE<span class="colen">:</span></th>
                     <td role="cell"><span id="date" contenteditable="true" class="editable">05-09-23</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">AGGT10mm:</th>
+                    <th role="columnheader" class="columntb" >
+                        AGGT10mm<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">1700</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">AGGT20mm:</th>
+                    <th role="columnheader" class="columntb" >
+                        AGGT20mm<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">2645</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">AGGT30mm:</th>
+                    <th role="columnheader" class="columntb" >
+                        AGGT30mm<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">0000</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">CEMT01:</th>
+                    <th role="columnheader" class="columntb" >
+                        CEMT01<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">1230</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">CEMT02:</th>
+                    <th role="columnheader" class="columntb" >
+                        CEMT02<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">0000</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">SAND01:</th>
+                    <th role="columnheader" class="columntb" >
+                        SAND01<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">2535</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">SAND02:</th>
+                    <th role="columnheader" class="columntb" >
+                        SAND02<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">0000</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">WATER:</th>
+                    <th role="columnheader" class="columntb" >
+                        WATER<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">0550</span> <span class="unit">Ltrs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">ADDITIVE:</th>
+                    <th role="columnheader" class="columntb" >
+                        ADDITIVE<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">00.00</span> <span class="unit">Ltrs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">TOTAL WT:</th>
+                    <th role="columnheader" class="columntb" >
+                        TOTAL WT<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">008660.00</span> <span class="unit">Kgs</span></td>
                 </tr>
                 <tr role="row">
-                    <th role="columnheader">CuM:</th>
+                    <th role="columnheader" class="columntb" >
+                        CuM<span class="colen">:</span></th>
                     <td role="cell"><span contenteditable="true" class="editable">000003.60</span></td>
                 </tr>
             </table>
